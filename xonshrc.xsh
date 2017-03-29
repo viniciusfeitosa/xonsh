@@ -1,7 +1,3 @@
-# adjust some paths
-$PATH.append('/home/scopatz/sandbox/bin')
-$LD_LIBRARY_PATH = ['/home/scopatz/.local/lib', '/home/scopatz/miniconda3/lib', '']
-
 # alias to quit AwesomeWM from the terminal
 def _quit_awesome(args, stdin=None):
     lines = $(ps ux | grep "gnome-session --session=awesome").splitlines()
