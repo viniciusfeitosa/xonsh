@@ -1,7 +1,7 @@
 {
 	"env": {
 		"XONSH_COLOR_STYLE": "native",
-		"PROMPT": "{env_name:{} }{INTENSE_BLUE}{user}{INTENSE_YELLOW} {cwd}{branch_color}{curr_branch: {}}{NO_COLOR} {BLUE}{prompt_end}{NO_COLOR} "
+		"PROMPT": "{env_name:{} }{BLUE} {cwd}{branch_color}{curr_branch: {}}{NO_COLOR} {BLUE}{prompt_end}{NO_COLOR} "
 	},
 	"foreign_shells": [
 		{"shell": "/bin/bash"},
